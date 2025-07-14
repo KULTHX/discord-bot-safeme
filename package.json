@@ -1,12 +1,13 @@
 {
   "name": "discord-bot-safeme",
   "version": "1.0.0",
-  "description": "بوت ديسكورد لحماية نصوص Roblox - تحويل من موقع KULTHX SAFEME",
-  "main": "bot.js",
+  "description": "بوت ديسكورد لحماية نصوص Roblox مع واجهة ويب لإدخال التوكن - تحويل من موقع KULTHX SAFEME",
+  "main": "web-server.js",
   "type": "module",
   "scripts": {
-    "start": "node start.js",
-    "dev": "node bot.js",
+    "start": "node web-server.js",
+    "web": "node web-server.js",
+    "bot": "node bot.js",
     "setup": "node setup.js",
     "help": "node help.js",
     "test": "echo \"Error: no test specified\" && exit 1"
