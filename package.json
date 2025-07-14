@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-safeme",
+  "version": "1.0.0",
+  "description": "بوت ديسكورد لحماية نصوص Roblox - تحويل من موقع KULTHX SAFEME",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node bot.js",
+    "setup": "node setup.js",
+    "help": "node help.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "roblox", "script", "protection", "safeme"],
+  "author": "KULTHX",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "express": "^4.21.2",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.5",
+    "helmet": "^8.1.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5"
+  }
+}
+
